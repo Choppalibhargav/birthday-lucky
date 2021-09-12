@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&display=swap');
+
+:root{
+    --primary-color:rgb(129,129,129);
+    --secondary-color:white;
+}
+
+body{
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    margin: auto;
+    background-color: var(--primary-color);
+
+}
+
+h1{
+    color: var(--secondary-color);
+}
+
+.container{
+    text-align: center;
+    margin: auto;
+}
+.dob{
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+    color: var(--secondary-color);
+    display: block;
+    cursor: pointer;
+
+}
+.lucky{
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+    color: var(--secondary-color);
+    display: block;
+}
+
+.input{
+    display: block;
+    margin: auto;
+    width: 12rem;
+    height: 2rem;
+}
+.check-number{
+    display: block;
+    margin: auto;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 2rem;
+    background-color: var(--primary-color);
+    border-color: white;
+    color: var(--secondary-color);
+    cursor: pointer;;
+}
+.message{
+text-align: center;
+color: white;
+display: block;
+padding: 1rem;
+}
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
+}
+.footer.link{
+    color: white;
+}
+.footer.ul{
+    padding-inline-start: 0px;
+}
+
+.list-non-bullet{
+    list-style: none;
+}
+.list-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
